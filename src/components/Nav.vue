@@ -1,7 +1,7 @@
 <template>
   <main class="flex justify-center items-center mx-auto gap-x-44 bg-orange-900">
     <div
-      class="flex justify-start items-start font-mono uppercase text-xl gap-x-4 p-4 flex-row text-white"
+      class="flex justify-start items-start font-mono uppercase text-2xl gap-x-4 p-4 flex-row text-white"
     >
       <router-link to="/"><h3>Home</h3></router-link>
       <router-link to="/About"><h3>About</h3></router-link>
