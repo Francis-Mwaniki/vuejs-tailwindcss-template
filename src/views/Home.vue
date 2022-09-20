@@ -7,15 +7,19 @@
       courses
     </h3>
     <Courses />
+    <Swiper />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Heros from "@/components/Heros.vue";
 import Courses from "@/components/Courses.vue";
+import Swiper from "@/components/swiper.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "Home",
-  components: { Heros, Courses },
+  components: { Heros, Courses, Swiper, Footer },
 };
 </script>
 

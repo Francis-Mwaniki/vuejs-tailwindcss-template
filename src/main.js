@@ -2,13 +2,5 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import "@/assets/main.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
-
-import { fas } from "@fortawesome/free-solid-svg-icons";
-
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-library.add(fas);
-createApp(App)
-  .use(router)
-  .component("font-awesome-icon", FontAwesomeIcon)
-  .mount("#app");
+import feather from "vue-icon";
+createApp(App).use(router).use(feather, "v-icon").mount("#app");

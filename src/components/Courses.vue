@@ -3,7 +3,7 @@
     class="grid grid-flow-row lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-1"
   >
     <div
-      class="flex flex-col p-2 bg-gray-300 shadow-lg shadow-black rounded-md flex-wrap gap-1 justify-center items-center mx-auto max-w-xl"
+      class="flex flex-col p-2 bg-gray-300 rounded-md flex-wrap gap-1 justify-center items-center mx-auto max-w-xl"
       v-for="c in card"
     >
       <h3 class="uppercase font-extrabold text-black font-mono">
